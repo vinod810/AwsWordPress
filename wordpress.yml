@@ -38,7 +38,7 @@
       replace: "{{ lookup('env','DB_NAME') }}"
     become: yes
  
-   - name: Add database name to the wp-config.php
+  - name: Add database name to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
       regexp: 'database_name_here'
