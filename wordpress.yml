@@ -71,4 +71,5 @@
     service:
       name: httpd
       state: started
+    become: yes
     
