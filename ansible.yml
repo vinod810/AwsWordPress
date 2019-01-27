@@ -59,14 +59,6 @@
       replace: "{{ DB_INSTANCE }}"
     become: yes
 
-  - name: Set file permission of wp-config.php
-    file:
-      path: /var/www/html/wordpress/wp-config.php
-      owner: root
-      group: root
-      mode: 000500
-    become: yes
-
   - name: Start service httpd, if not started 
     service:
       name: httpd
