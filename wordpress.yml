@@ -41,21 +41,21 @@
   - name: Add database name to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
-      regexp: 'database_name_here'
+      regexp: 'username_here'
       replace: "{{ lookup('env','DB_USER') }}"
     become: yes
 
   - name: Add database name to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
-      regexp: 'database_name_here'
+      regexp: 'password_here'
       replace: "{{ lookup('env','DB_PASSWORD') }}"
     become: yes
 
   - name: Add database name to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
-      regexp: 'database_name_here'
+      regexp: 'localhost'
       replace: "{{ lookup('env','DB_INSTANCE') }}"
     become: yes
 
