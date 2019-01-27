@@ -13,6 +13,6 @@ Download the cloudformation template using the the command - **wget https://gith
 1. CDN/ CloudFront
 2. CloudWatch 
 3. Elastic Cache for the RDS
-4. Shared EFS for contents such as WordPress thems and pluggins
+4. Shared EFS for contents such as WordPress themes and pluggins
 5. HTTPS/ SSL certificate
 6. Encrypt RDS and EFS at rest
