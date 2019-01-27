@@ -35,28 +35,28 @@
     replace:
       path: /var/www/html/wordpress/wp-config.php
       regexp: 'database_name_here'
-      replace: "{{ lookup('env','DB_NAME') }}"
+      replace: "{{ DB_NAME }}"
     become: yes
  
-  - name: Add database name to the wp-config.php
+  - name: Add database user name to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
       regexp: 'username_here'
-      replace: "{{ lookup('env','DB_USER') }}"
+      replace: "{{ DB_USER }}"
     become: yes
 
-  - name: Add database name to the wp-config.php
+  - name: Add database password to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
       regexp: 'password_here'
-      replace: "{{ lookup('env','DB_PASSWORD') }}"
+      replace: "{{ DB_PASSWORD }}"
     become: yes
 
-  - name: Add database name to the wp-config.php
+  - name: Add database host endpoint to the wp-config.php
     replace:
       path: /var/www/html/wordpress/wp-config.php
       regexp: 'localhost'
-      replace: "{{ lookup('env','DB_INSTANCE') }}"
+      replace: "{{ DB_INSTANCE }}"
     become: yes
 
   - name: Set file permission of wp-config.php
