@@ -2,7 +2,7 @@
 AWS CloudFormation template for WordPress: This template installs a highly-available, scalable WordPress deployment using a multi-az Amazon RDS database instance for storage. It uses Ansible (pullmode) to install and configure the Wordpres inside the VM(s)"
 
 # Installation
-Download the cloudformation template using the the command - wget https://github.com/vinod810/AwsWordPress/raw/master/cloud-formation.json  You may then create the WordPress stack from the [AWS cloudformation console.](https://console.aws.amazon.com/cloudformation/)
+Download the cloudformation template using the the command - **wget https://github.com/vinod810/AwsWordPress/raw/master/cloud-formation.json**  You may then create the WordPress stack from the [AWS cloudformation console.](https://console.aws.amazon.com/cloudformation/)
 
 # Features
 1. Highly Available
