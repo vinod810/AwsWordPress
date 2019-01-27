@@ -18,3 +18,4 @@ Download the cloudformation template using the following command and then create
 4. Shared EFS for contents such as WordPress themes and pluggins
 5. HTTPS/ SSL certificate
 6. Encrypt RDS and EFS at rest
+7. Geo-redenduncy using DNS and multi-region database replication
