@@ -13,6 +13,8 @@ The following capabilities are currently supported:
 3. Multi-AZ RDS 
 4. Private and Public subnets
 5. Bastion node
+6. Internet Gateway
+7. NAT
 
 # Roadmap 
 The following capabilites will be considered to be included in the future releases:
