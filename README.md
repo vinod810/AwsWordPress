@@ -7,6 +7,7 @@ Download the cloudformation template using the following command and then create
 **wget https://github.com/vinod810/AwsWordPress/raw/master/cloud-formation.json**  
 
 # Features
+The following capabilities are currently supported:
 1. Highly Available
 2. Autoscaling
 3. Multi-AZ RDS 
@@ -14,6 +15,7 @@ Download the cloudformation template using the following command and then create
 5. Bastion node
 
 # Roadmap 
+The following capabilites will be considered to be included in the future releases:
 1. CDN/ CloudFront
 2. CloudWatch 
 3. Elastic Cache for the RDS
