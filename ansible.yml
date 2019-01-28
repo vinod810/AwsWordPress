@@ -9,15 +9,15 @@
     yum: name=php-mysql
     become: yes
 
-  - name: Install PHP-MySQL
+  - name: Install MySQL
     yum: name=mysql
     become: yes
 
-  - name: Install PHP-MySQL
+  - name: Install HTTPD (WEbserver)
     yum: name=httpd
     become: yes
 
-  - name: Download WordPress
+  - name: Download WordPress 
     get_url: url=https://wordpress.org/latest.tar.gz dest=/tmp/wordpress.tar.gz validate_certs=no
     become: yes
 
