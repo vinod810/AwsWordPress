@@ -10,6 +10,8 @@ Download the cloudformation template using the following command and then create
 1. Highly Available
 2. Autoscaling
 3. Multi-AZ RDS 
+4. Private and Public subnets
+5. Bastion node
 
 # Roadmap 
 1. CDN/ CloudFront
